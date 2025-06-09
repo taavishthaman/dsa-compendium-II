@@ -1,0 +1,17 @@
+ARRAYS
+    1. int arr[100] = {0} => Initialisation List, 100 memory blocks all initialised with 0.
+    2. int arr[100] = {1,2,3} => Initialisation List, {1,2,3,0,0......,0}.
+    3. Size of various data types
+        1. Integer => 4 bytes
+        2. Char => 1 byte
+        3. Float => 4 bytes
+        4. Double => 8 bytes
+        5. Pointer variable => 8 bytes
+    4. Time complexity of linear search is O(N).
+    5. Reverse array time complexity O(N).
+    6. Printing pairs Time Complexity O(N^2).
+    7. Kadane time complexity O(N) and space complexity is O(1).
+
+VECTORS
+    1. Vectors can be used to create dynamic 1D and 2D arrays.
+    2. Unlike arrays vectors are passed by value to the functions but they can also be passed by reference.
