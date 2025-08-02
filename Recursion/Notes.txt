@@ -1,0 +1,17 @@
+1. Factorial 
+    Time Complexity => O(N)
+    Space Complexity => O(N)
+2. Fibonacci 
+    Time Complexity => O(2^N)
+    Space Complexity => O(N) => Max Depth of recursion tree
+3. Tiling Problem 
+    Let's consider a case where the board is of length 4 X N and tiles have dimensions of 1 X N. Probably a good idea to always use this case.
+
+    Recursive case would be => f(res) = f(N - 1) + f(N - 4)
+    For the base case
+        1. If N is 0 => 1 way
+        2. If N is 1 => 1 way
+        3. If N is 2 => 1 way
+        4. If N is 3 => 1 way
+
+    So we can say if N <= M - 1 then return 1 and that would be the base case 

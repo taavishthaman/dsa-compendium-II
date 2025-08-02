@@ -1,0 +1,15 @@
+1. 1D Array Example => A collection of marks.
+2. 2D Array Example => A collection of marks for subjects, Physics, Chemistry and Math. Or a Grayscale Image.
+3. 3D Array Example => An RGB image, where the third dimension is of colors Red, Green and Blue.
+4. 4D Array Example => A video stream, where the fourth dimension is time, and a 3D array represents an image frame at a time t.
+5. 2D Arrays when stored in memory are linearised.
+    Two common ways of storing the arrays.
+    1. Row Major Form: 
+    2. Column Major Form:
+
+    Let's assume our array looks like this
+    [1][2][3]    => Row Major Form => [1][2][3][4][5][6][7][8][9]
+    [4][5][6]    => Column Major Form => [1][4][7][2][5][8][3][6][9]
+    [7][8][9] 
+
+    Depending on the computer architecture, the row major or column major architectures may be used.

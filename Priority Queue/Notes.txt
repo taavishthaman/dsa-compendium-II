@@ -1,0 +1,5 @@
+1. Creating a priority queue takes O(N) time.
+2. Removing an element from the priority queue takes O(logN) time.
+3. Heaps must follow these properties:
+    1. It should be a complete binary tree.
+    2. It should follow the heap order property i.e. the children should be smaller than the parent if it is a max heap and vice versa.
