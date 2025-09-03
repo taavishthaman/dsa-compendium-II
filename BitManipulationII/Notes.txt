@@ -1,0 +1,2 @@
+1. Left shifting a number by n steps would mean multiplying it by 2^n.
+2. Right shifting a number by n steps would mean dividing that number by 2^n.
